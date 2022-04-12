@@ -6,7 +6,7 @@ using namespace std;
 // Function to check
 // if the given number is divisible
 // by sum of its digits
-string isDivisible(long long int n)
+string isDivisible(long int n)
 {
     long long int temp = n;
  
@@ -25,10 +25,9 @@ string isDivisible(long long int n)
     return "FALSE";
 }
  
-// Driver Code
 int main()
 {
-    long long int n = 123;
+    long int n = 75;
  
     cout << isDivisible(n);
  
